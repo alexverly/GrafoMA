@@ -8,7 +8,7 @@ namespace GrafoMA
 {
     class Program
     {
-        // Github: https://bit.ly/GrafoMA
+        // Github: http://bit.ly/GrafoMA-Codigo
         // Video: https://bit.ly/GrafoMA-Video
 
         // APRESENTAÇÃO DO PROGRAMA: Este programa exibe um menu para o usuário que permite chamar vários métodos para análise de grafos.
