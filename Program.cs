@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +9,7 @@ namespace GrafoMA
     class Program
     {
         // Github: http://bit.ly/GrafoMA-Codigo
-        // Video: https://bit.ly/GrafoMA-Video
+        // Video: http://bit.ly/video-GrafoMA
 
         // APRESENTAÇÃO DO PROGRAMA: Este programa exibe um menu para o usuário que permite chamar vários métodos para análise de grafos.
         // AUTORES:
@@ -228,8 +228,8 @@ namespace GrafoMA
                             testeVertice = int.TryParse(Console.ReadLine(), out v);
                         }
 
-                        if (Grafo.Isolado(v)) Console.WriteLine("\nO vértice informado é classificardo como isolado. ");
-                        else Console.WriteLine("\nO vértice informado não é isolado. ");
+                        if (Grafo.Isolado(v)) Console.Write("\nO vértice informado é classificardo como isolado. ");
+                        else Console.Write("\nO vértice informado não é isolado. ");
                         Console.ReadKey(true);
                         break;
 
@@ -247,8 +247,8 @@ namespace GrafoMA
                             testeVertice = int.TryParse(Console.ReadLine(), out v);
                         }
 
-                        if (Grafo.Impar(v)) Console.WriteLine("\nO vértice informado é classificardo como ímpar. ");
-                        else Console.WriteLine("\nO vértice informado não é ímpar. ");
+                        if (Grafo.Impar(v)) Console.Write("\nO vértice informado é classificardo como ímpar. ");
+                        else Console.Write("\nO vértice informado não é ímpar. ");
                         Console.ReadKey(true);
                         break;
 
@@ -266,8 +266,8 @@ namespace GrafoMA
                             testeVertice = int.TryParse(Console.ReadLine(), out v);
                         }
 
-                        if (Grafo.Par(v)) Console.WriteLine("\nO vértice informado é classificardo como par. ");
-                        else Console.WriteLine("\nO vértice informado não é par. ");
+                        if (Grafo.Par(v)) Console.Write("\nO vértice informado é classificardo como par. ");
+                        else Console.Write("\nO vértice informado não é par. ");
                         Console.ReadKey(true);
                         break;
 
@@ -296,8 +296,8 @@ namespace GrafoMA
                             testeAresta = int.TryParse(Console.ReadLine(), out V2);
                         }
 
-                        if (Grafo.Adjacentes(V1, V2)) Console.WriteLine("\nOs vértices informados são adjacentes. ");
-                        else Console.WriteLine("\nOs vértices informados não são adjacentes. ");
+                        if (Grafo.Adjacentes(V1, V2)) Console.Write("\nOs vértices informados são adjacentes. ");
+                        else Console.Write("\nOs vértices informados não são adjacentes. ");
                         Console.ReadKey(true);
                         break;
 
